@@ -46,7 +46,7 @@ public class VisitDao {
 
     public Integer totalRegularVisitors (Date start, Date stop){
         String sql="select user_id, count (distinct page_id) as up from visit where time between '"
-                +start+"' and '"+stop+"'  group by user_id having up>10;";
+                +start+"' and '"+stop+"'  group by user_id having up>=10;";
         System.out.println(sql);
         Query query = em.createNativeQuery(sql);
         return query.getResultList().size();
