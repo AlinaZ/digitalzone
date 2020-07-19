@@ -1,0 +1,13 @@
+INSERT INTO User (user_id, version, ip) VALUES (1, 0,'ip1');
+INSERT INTO User (user_id, version, ip) VALUES (2, 0,'ip2');
+INSERT INTO User (user_id, version, ip) VALUES (3, 0,'ip3');
+INSERT INTO Page (page_id, version) VALUES (1, 0);
+INSERT INTO Page (page_id, version) VALUES (2, 0);
+INSERT INTO Page (page_id, version) VALUES (3, 0);
+INSERT INTO Page (page_id, version) VALUES (4, 0);
+INSERT INTO Page (page_id, version) VALUES (5, 0);
+INSERT INTO Page (page_id, version) VALUES (6, 0);
+INSERT INTO Page (page_id, version) VALUES (7, 0);
+INSERT INTO Page (page_id, version) VALUES (8, 0);
+INSERT INTO Page (page_id, version) VALUES (9, 0);
+INSERT INTO Page (page_id, version) VALUES (10, 0);
